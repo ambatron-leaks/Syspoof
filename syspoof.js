@@ -1,5 +1,5 @@
 // Leaked by ambatron-leaks @ github.com
-// https://github.com/abatron-leaks
+// https://github.com/ambatron-leaks
 // don't use chatgpt please sysdriver, it's obvious by the comments :(
 
 const { app, BrowserWindow, ipcMain, Tray, Menu, nativeImage, dialog } = require('electron');
@@ -2523,4 +2523,5 @@ app.on('window-all-closed', () => {
 });
 app.on('before-quit', () => {
   // Cleanup if needed
+
 });
